@@ -1,2 +1,2 @@
 #!/bin/bash
-perm=$(stat -c %A olleh) echo $perm > hello
+chmod --reference=olleh hello
